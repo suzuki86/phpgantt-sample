@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a29b209a2254d9042508f5248e085669",
-    "content-hash": "f2b6ecc7a5ad9de39aedeef7e0a55672",
+    "hash": "4aca1ba2dc06024eab0f8a7ee20b177b",
+    "content-hash": "9b59988f4509aa5bd8ced91272723aaf",
     "packages": [
         {
             "name": "suzuki86/DateRange",
@@ -26,11 +26,11 @@
         },
         {
             "name": "suzuki86/phpgantt",
-            "version": "0.0.3",
+            "version": "0.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/suzuki86/phpgantt",
-                "reference": "51931890c3b088bdd99272bbfcf418829ca8dccc"
+                "reference": "eef59819e7a7b591015d2999d0d851a6b101c5df"
             },
             "require": {
                 "suzuki86/daterange": "0.1.3"
@@ -42,7 +42,7 @@
                 }
             },
             "description": "Gantt chart generator written in PHP",
-            "time": "2015-12-06 05:57:25"
+            "time": "2016-07-31 15:51:41"
         }
     ],
     "packages-dev": [],

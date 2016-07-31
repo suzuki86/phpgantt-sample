@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "suzuki86/phpgantt": "0.0.3",
+    "suzuki86/phpgantt": "0.0.6",
     "suzuki86/DateRange": "0.1.3"
   }
 }

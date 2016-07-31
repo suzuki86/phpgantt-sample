@@ -48,7 +48,9 @@ $gantt = new PhpGantt($tasks, $nonBusinessdays);
 <html>
 <head>
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="css/style.css" />
+  <?php $gantt->cssRenderer->render(); ?>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <?php $gantt->jsRenderer->render(); ?>
 </head>
 <body>
 <?php $gantt->render(); ?>
